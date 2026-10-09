@@ -1,49 +1,37 @@
 # Copacking Envases Industriales — Sitio Web
 
-Sitio web corporativo de **Copacking Envases Industriales** (Greenshell Packaging S.A.S.), fabricante de envases metálicos industriales con Certificación UN para Colombia, Costa Rica y Venezuela.
+Sitio web corporativo de Copacking Envases Industriales (Greenshell Packaging S.A.S.), fabricante de envases metálicos industriales en hojalata con Certificación UN. Colombia y Costa Rica.
 
-**Tagline:** *Confianza en cada envase.*
-
----
-
-## Demo en vivo
-
-Una vez activado GitHub Pages, el sitio estará en:
-`https://<tu-usuario>.github.io/<nombre-repo>/`
+Tagline: Confianza en cada envase.
 
 ## Estructura
-- `index.html` — Sitio completo (autocontenido: CSS, JS, imágenes base64, fuentes)
-- `README.md`
-- `.nojekyll` — evita el procesamiento Jekyll
-- `.gitignore`
+- index.html — sitio completo (autocontenido: CSS, JS, imágenes base64, logos y certificaciones)
+- README.md · .nojekyll · .gitignore
 
-## Cómo publicar en GitHub Pages
-1. Crea un repositorio nuevo en GitHub.
-2. Sube estos archivos:
-   ```bash
-   git init
-   git add .
-   git commit -m "Sitio Copacking Envases Industriales"
-   git branch -M main
-   git remote add origin https://github.com/<tu-usuario>/<repo>.git
-   git push -u origin main
-   ```
-3. En el repositorio: **Settings → Pages**.
-4. En **Source**: rama `main`, carpeta `/ (root)`. Guarda.
-5. En 1-2 minutos el sitio queda publicado.
+## Publicar en GitHub Pages
+1. Crea un repositorio y sube estos archivos.
+2. Settings → Pages → Source: rama main, carpeta / (root). Guarda.
+3. En 1-2 minutos el sitio queda publicado.
 
-## Secciones
-- Inicio, Catálogo con configurador de necesidades (4 pasos)
-- Fichas de producto interactivas (selector de tamaño y acabado, pruebas de calidad, certificaciones, industrias)
-- Páginas de industria con contenido SEO (desafíos técnicos, normativa UN, Decreto 1609/1079) + selector de producto recomendado
-- Certificaciones, Nosotros, Blog, Cotizar
+## Portafolio (8 fichas técnicas con galería de fotos navegable)
+- Envase Abierto (Open Head): Tapa Aro · Tapa Araña · Tapa Araña + Tapón Flex (10-22 L)
+- Envase Cerrado (Tight Head): Tapa Fija + Tapón Flex Spout (10-22 L)
+- Accesorios y Herramientas de Sellado: Tapón Flex Spout · Aro y Precinto de Seguridad · Selladora Tapa Araña · Selladora Tapones Flex Spout
 
-## Sistema de diseño
-Azul `#20538f` · Azul oscuro `#1a3f6e` · Verde `#add690` · Verde oscuro `#7fb85a`. Tipografías Barlow Condensed / Barlow / Inter. Íconos SVG de línea sobre fondo blanco. Totalmente responsive para móvil, tablet y escritorio.
+## Blog técnico (artículos completos)
+- Certificación UN para envases: qué es, cómo funciona y por qué su empresa la necesita
+- Triple cierre vs. doble cierre: cómo elegir el sellado correcto
+- Ventajas de los envases de hojalata: por qué siguen siendo la opción más segura
+
+## Industrias
+Pinturas, Agroquímicos, Solventes, Adhesivos, Tintas, Construcción.
+
+## Certificaciones
+SGS · ISO 9001 · UN Packaging · ESG Ecovadis.
 
 ## Contacto
-- CO — +57 314 797 5841 — comercial@copacking.com.co
-- CR — +506 7071 2925
-- VE — +57 310 284 7938
+- Colombia — Greenshell Packaging S.A.S. · Zona Franca Tocancipá: Km 1.5 vía Briceño // Zipaquirá · +57 314 797 5841 · comercial@copacking.com.co
+- María Valentina Peralta Rojas — Analista Comercial · +57 311 230 0054 · analistacomercial@gspack.com.co
+- Costa Rica — Packaging Centro América S.R.L. · Zona Franca BES, El Coyol, Bodega E7B · +506 7071 2925
 
-© 2025 Greenshell Packaging S.A.S. · Zona Franca Tocancipá, Colombia
+© Greenshell Packaging S.A.S.
